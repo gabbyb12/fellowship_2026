@@ -1,38 +1,49 @@
-<!DOCTYPE html> The root that wraps all of the content on the page
-	
-	<head>Everything that we want to include on our webpage on initial load but keep hidden from the webpage visitor goes here.
-		
-		<meta charset="utf-8"> The character set (pretty much any character you might use)
-         your document is allowed to use and have no issues displaying
-		
-		<title>The text that appears on the tab of your webpage as well as the google search result</title>
-		
-		<style>
-        /*This is also where your style tags should go so the browser has access to
-         all of the style prior to trying to load the elements in the body.
-          Can be included in body if needed but not common */
-        </style>
-	</head>
+<!DOCTYPE html>
+<head>
 
-	<body>
+<link rel="stylesheet" href="practice2.css">
 
-		<!-- The page content goes in the body. This, as you can see, is a comment -- 
-         it will not show up for the person visiting your site but it 
-         will live in your code for future reference -->
-		
-		<a href="" target="_blank">This is the anchor tag.</a>
-		<!--  It is the placeholder for a link. You define the destination of 
-          a link using the href atribute. Target specifies where to open the linked doc -->
-		
-		<p>
-			Another paragraph of text here
-			
-			explaining something deeply interesting
-			
-			that all of you must read in order to
-			
-			get a better understanding of html.
-		</p>
-	</body>
-	
+    <style>
+        .lavenderBack {
+            background-color: lavender;
+        }
+        div {
+            font-family:Arial, Helvetica, sans-serif;
+        }
+
+
+        p {
+            font-family:'Courier New', Courier, monospace
+        }
+    </style>
+</head>
+<title> awesomeWebsite.org</title>
+
+<body>
+<div> 
+        <h1> Awesome website with awesome links!</h1>
+
+    Welcome to Cats and Web Development!
+</div>
+
+
+    <div> 
+        <p> Useful Links:  </p>
+
+        <p>
+        <button> <a href="https://www.w3schools.com/html/html_links.asp" target="_blank">W3 schools rocks </a> </button>
+
+        <button> <a href="https://www.google.com/aclk?sa=L&ai=DChsSEwi9_4vMwciUAxWlQf8BHcIxKU4YACICCAEQABoCbWQ&co=1&ase=2&gclid=CjwKCAjwt7XQBhBkEiwAtStpp9tddpumn9-V5cfy1KEVGHTiTtsont2CT8fsmHORhxhpWGxjzU8GthoCZdEQAvD_BwE&cid=CAASuwHkaMHvCiw06AfsMhk1NJoRMUU0hwdq9VreqvUdobmZhe7WQYOkgnduAqxIFvqdVqedTkYIb0G_Dhy95rRmLiCFsaw9j7M2W-L65p11XuqNfGe2jc30Z9RAdubqDLOMXv2hLLTJa_VF_13Pq8pKgEPCTwsmG5jQ0SBwAc8R8tQwwwwKOo-Xft1Z5NLY74oKEI_RmRqf0lyWsW0_oDFiIlDNDzhGDA_tlAzBcpZSOVYNe9ZeU7ebF1oDzQwe&cce=2&category=acrcp_v1_32&sig=AOD64_2u0tYcSrFcL1ky_88f4RGdTGRYxg&q&nis=4&adurl&ved=2ahUKEwjf-IXMwciUAxVChIkEHV6XG-sQ0Qx6BAg8EAE" target="_blank">cute cat cafe</a> </button>
+    
+        <button> <a href="index.html" target="_blank">HTML tutorial</a> </button>
+
+        <button> <a href="newcat.html" target="_blank"> new page alert</a></button>
+     </p>
+    </div>
+
+    <div> 
+        <img src="pinkcat.jpg" alt="white cat with a pink background">
+        </div>
+
+</body>
 </html>
