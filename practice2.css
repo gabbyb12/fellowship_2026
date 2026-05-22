@@ -21,6 +21,10 @@ div {
     margin: 20px;
 }
 
+.div2 {
+  display: 10px 5px; 
+}
+
 img {
     padding: 50px;
 }
